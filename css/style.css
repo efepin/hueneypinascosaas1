@@ -1,0 +1,113 @@
+/*Archivo SCSS de estilos generales*/
+/*******************
+     RESPONSIVE 
+ ******************/
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Styles */ }
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+  /* Styles */ }
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  /* Styles */ }
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */ }
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* Styles */ }
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* Styles */ }
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* Styles */ }
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */ }
+
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  /* Styles */ }
+
+/*Index*/
+.bodyindex {
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(6, fr);
+  grid-template-columns: 20% 60% 20%;
+  background-color: #344d70; }
+
+.indexmain {
+  width: 100%;
+  grid-column: 1/4;
+  grid-row: 3/6;
+  background-color: #344d70;
+  color: white;
+  display: block;
+  margin: 0   auto;
+  text-align: center;
+  background-image: url(../Root/Imagenes/vamo.jpg); }
+  .indexmain .indexdiv {
+    width: 100%; }
+    .indexmain .indexdiv iframe {
+      margin: 10px auto;
+      background-color: black; }
+    .indexmain .indexdiv h1 {
+      background-color: #344d70;
+      color: white;
+      padding: 10px 0px;
+      margin: 0 auto; }
+    .indexmain .indexdiv h3 {
+      background-color: #344d70;
+      color: white;
+      margin: 0 auto;
+      padding: 10px 0px; }
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif; }
+
+html {
+  background-color: #344d70; }
+  html a {
+    text-decoration: none; }
+
+header {
+  width: 100%;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background-color: #344d70;
+  display: flex;
+  justify-content: center; }
+
+nav {
+  display: flex;
+  width: 100%;
+  grid-column: 1/4;
+  grid-row: 2/3; }
+  nav ul li {
+    display: inline;
+    padding: 0px 40px;
+    margin: 15px; }
+    nav ul li :hover {
+      color: grey; }
+
+.imagenesfondo {
+  width: 100%;
+  display: inline;
+  margin: 0 auto;
+  padding: 25px 0px;
+  text-align: center; }
+
+footer {
+  margin: 0 auto; }

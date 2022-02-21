@@ -1,0 +1,46 @@
+/*Index*/
+
+
+$colorfondo: #344d70;
+
+
+.bodyindex{
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(6, fr);
+    grid-template-columns: 20% 60% 20%;
+    background-color: $colorfondo;
+        
+}
+
+.indexmain{
+    width: 100%;
+    grid-column: 1/4;
+    grid-row: 3/6;
+    background-color: $colorfondo;
+    color: white;
+    display: block;
+    margin: 0   auto;
+    text-align: center;
+    background-image: url(../Root/Imagenes/vamo.jpg);
+    .indexdiv{
+        width: 100%;
+                iframe{
+                    margin: 10px auto;
+                    background-color: black;
+                      }
+                h1{
+                    background-color:$colorfondo;
+                    color: white;
+                    padding: 10px 0px;
+                    margin: 0 auto;
+                   }
+                h3{
+                    background-color:$colorfondo;
+                    color: white;
+                    margin: 0 auto;
+                    padding: 10px 0px
+                   }
+            }    
+        }   
+
